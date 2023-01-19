@@ -2,23 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website Indra</title>
+    <title>Indra Setiadhi</title>
+    <meta
+      name="description"
+      content="Software engineer & data enthusiast"
+    />
+
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <header>
-      <h1>Website Indra</h1>
+    <nav class="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="header hero">
+      <h1 class="my-greeting">Hi, I'm Indra</h1>
+      <p class="my-intro">
+        Student of RevoU FSSE
+      </p>
     </header>
 
-    <main>
-      <div>
-        <p>Welcome to website Indra!</p>
-        <p>You can <a href="/blog">read our blog posts here</a></p>
-      </div>
+    <main class="main content">
+      <img
+        class="my-photo"
+        src="/assets/photo.jpeg"
+        alt="Indra Setiadhi"
+      />
+      <p class="my-job-title">
+        🧑🏻‍💻 Software Engineer & Data Enthusiast 🐱
+      </p>
+      <button onclick="alert('Hi!')">Say Hello!</button>
     </main>
 
-    <footer>
-      <p>Copyright 2023 Indra</p>
+    <footer class="footer">
+      <p class="copyright">Copyright &copy; 2023 Indra Setiadhi</p>
     </footer>
+
+    <!--<script src="index.js"></script>-->
   </body>
 </html>
