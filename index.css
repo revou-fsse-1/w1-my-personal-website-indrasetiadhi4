@@ -1,37 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #e0faff;
+  font-family: "Poppins", sans-serif;
+  background-color: #cccccc;
 }
 
 h1 {
-color: #00aacc;
+  color: #00aacc;
 }
 
 a {
-color: #0088a3;
+  color: #00aacc;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90em;
 }
 
 button {
-background-color: #0088a3;
-border-radius: 0.2rem;
-border-style: none;
-color: #e0faff;
-cursor: pointer;
-font-size: 1rem;
+  background-color: #0088a3;
+  border-radius: 0.2rem;
+  border-style: none;
+  color: #e0faff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+input {
+  border-radius: 0.2rem;
+  border-style: none;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 1rem 10rem;
+  margin: 1rem;
+}
+
+li {
+  float: left;
+  margin: 4.5rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.introduction {
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.lets-connect {
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-content {
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .my-photo {
-width: 100%;
-max-width: 300px;
-border-radius: 1rem;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 1rem;
 }
 
 .footer {
-font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
 }
