@@ -1,4 +1,4 @@
-# Website Indra
+# Indra Setiadhi Personal Website
 
 > Assignment for "My Personal Website".
 
