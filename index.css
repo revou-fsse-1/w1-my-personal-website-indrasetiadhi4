@@ -56,6 +56,13 @@ li {
 .navigation {
   display: flex;
   justify-content: space-around;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .introduction {
