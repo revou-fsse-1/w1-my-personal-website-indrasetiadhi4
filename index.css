@@ -55,6 +55,7 @@ li {
 
 .navigation {
   display: flex;
+  z-index: 1;
   justify-content: space-around;
   margin: auto;
   text-align: center;
