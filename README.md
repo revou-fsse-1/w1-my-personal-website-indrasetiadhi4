@@ -1,4 +1,4 @@
-# Indra Setiadhi Personal Website
+# Indra Setiadhi's Website
 
 > Assignment for "My Personal Website".
 
@@ -12,3 +12,9 @@ https://indrasetiadhi.netlify.app
 
 - Home
 - Contact
+
+## Screenshots
+
+![Home](assets/website-home.png)
+
+![Contact](assets/website-contact.png)
